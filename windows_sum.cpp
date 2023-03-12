@@ -2,7 +2,7 @@
 #include<iomanip>
 #include <windows.h>
 using namespace std;
-const int N = 262144/2/2/2/2;
+const int N = 4194304；
 int a[N],b[N];
 void ordinary(int n)
 {
@@ -32,7 +32,7 @@ void pro1(int n)
  {a[i] += a[n−i−1];
  n = n/2;
  pro2 (n) ;
- }}
+ }}}
 
 void pro3(int n)
 {
